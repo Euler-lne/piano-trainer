@@ -1,0 +1,196 @@
+{
+  "name": "两只老虎（合理指法）",
+  "bpm": 120,
+  "sections": [
+    {
+      "id": 1,
+      "name": "主歌",
+      "bars": [
+        {
+          "id": 1,
+          "notes": [
+            {
+              "beatLength": 1,
+              "finger": 1
+            },
+            {
+              "beatLength": 1,
+              "finger": 2
+            },
+            {
+              "beatLength": 1,
+              "finger": 3
+            },
+            {
+              "beatLength": 1,
+              "finger": 1
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "notes": [
+            {
+              "beatLength": 1,
+              "finger": 1
+            },
+            {
+              "beatLength": 1,
+              "finger": 2
+            },
+            {
+              "beatLength": 1,
+              "finger": 3
+            },
+            {
+              "beatLength": 1,
+              "finger": 1
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "notes": [
+            {
+              "beatLength": 1,
+              "finger": 3
+            },
+            {
+              "beatLength": 1,
+              "finger": 4
+            },
+            {
+              "beatLength": 1,
+              "finger": 5
+            },
+            {
+              "beatLength": 1,
+              "finger": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "notes": [
+            {
+              "beatLength": 1,
+              "finger": 3
+            },
+            {
+              "beatLength": 1,
+              "finger": 4
+            },
+            {
+              "beatLength": 1,
+              "finger": 5
+            },
+            {
+              "beatLength": 1,
+              "finger": 0
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "notes": [
+            {
+              "beatLength": 0.5,
+              "finger": 5
+            },
+            {
+              "beatLength": 0.5,
+              "finger": 4
+            },
+            {
+              "beatLength": 0.5,
+              "finger": 5
+            },
+            {
+              "beatLength": 0.5,
+              "finger": 4
+            },
+            {
+              "beatLength": 0.5,
+              "finger": 3
+            },
+            {
+              "beatLength": 0.5,
+              "finger": 1
+            },
+            {
+              "beatLength": 1,
+              "finger": 0
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "notes": [
+            {
+              "beatLength": 0.5,
+              "finger": 5
+            },
+            {
+              "beatLength": 0.5,
+              "finger": 4
+            },
+            {
+              "beatLength": 0.5,
+              "finger": 5
+            },
+            {
+              "beatLength": 0.5,
+              "finger": 4
+            },
+            {
+              "beatLength": 0.5,
+              "finger": 3
+            },
+            {
+              "beatLength": 0.5,
+              "finger": 1
+            },
+            {
+              "beatLength": 1,
+              "finger": 0
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "notes": [
+            {
+              "beatLength": 1,
+              "finger": 1
+            },
+            {
+              "beatLength": 1,
+              "finger": 5
+            },
+            {
+              "beatLength": 2,
+              "finger": 1
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "notes": [
+            {
+              "beatLength": 1,
+              "finger": 1
+            },
+            {
+              "beatLength": 1,
+              "finger": 5
+            },
+            {
+              "beatLength": 2,
+              "finger": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

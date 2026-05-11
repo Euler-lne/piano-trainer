@@ -1,0 +1,162 @@
+{
+  "name": "玛丽有只小羊羔",
+  "bpm": 120,
+  "sections": [
+    {
+      "id": 1,
+      "name": "段落 1",
+      "bars": [
+        {
+          "id": 1,
+          "notes": [
+            {
+              "beatLength": 1,
+              "finger": 3
+            },
+            {
+              "beatLength": 1,
+              "finger": 2
+            },
+            {
+              "beatLength": 1,
+              "finger": 1
+            },
+            {
+              "beatLength": 1,
+              "finger": 3
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "notes": [
+            {
+              "beatLength": 1,
+              "finger": 3
+            },
+            {
+              "beatLength": 1,
+              "finger": 3
+            },
+            {
+              "beatLength": 2,
+              "finger": 3
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "notes": [
+            {
+              "beatLength": 1,
+              "finger": 3
+            },
+            {
+              "beatLength": 1,
+              "finger": 3
+            },
+            {
+              "beatLength": 2,
+              "finger": 3
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "notes": [
+            {
+              "beatLength": 1,
+              "finger": 3
+            },
+            {
+              "beatLength": 1,
+              "finger": 3
+            },
+            {
+              "beatLength": 2,
+              "finger": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "段落 2",
+      "bars": [
+        {
+          "id": 5,
+          "notes": [
+            {
+              "beatLength": 1,
+              "finger": 3
+            },
+            {
+              "beatLength": 1,
+              "finger": 2
+            },
+            {
+              "beatLength": 1,
+              "finger": 1
+            },
+            {
+              "beatLength": 1,
+              "finger": 3
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "notes": [
+            {
+              "beatLength": 1,
+              "finger": 3
+            },
+            {
+              "beatLength": 1,
+              "finger": 3
+            },
+            {
+              "beatLength": 1,
+              "finger": 3
+            },
+            {
+              "beatLength": 1,
+              "finger": 1
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "notes": [
+            {
+              "beatLength": 1,
+              "finger": 2
+            },
+            {
+              "beatLength": 1,
+              "finger": 2
+            },
+            {
+              "beatLength": 1,
+              "finger": 3
+            },
+            {
+              "beatLength": 1,
+              "finger": 2
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "notes": [
+            {
+              "beatLength": 4,
+              "finger": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
