@@ -155,7 +155,11 @@ async function handleUpload() {
         isSending.value = true;
         const flatten = scoreStore.getFlattenNotes();
         const packet = packScoreToBinary({ notes: flatten });
+        // 调用并打印
         addLog(`打包数据: ${packet.length} 字节, BPM=${scoreStore.currentScore.bpm}`, 'info');
+        console.log('flatten length:', flatten.length);
+        console.log('last note:', flatten[flatten.length - 1]);
+        console.log('打包数据:', packet);
         await sendData(packet);
         addLog('✓ 数据已发送到 Arduino', 'success');
         message.success('上传成功');

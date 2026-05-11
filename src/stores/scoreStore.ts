@@ -173,13 +173,18 @@ export const useScoreStore = defineStore('score', () => {
     function getFlattenNotes(): { timeOffset: number; finger: number }[] {
         const result: { timeOffset: number; finger: number }[] = [];
         const bpm = currentScore.value.bpm;
+        let prevDurationMs = 0;  // 上一个音符的持续时间（毫秒）
+
         for (const section of currentScore.value.sections) {
             for (const bar of section.bars) {
                 for (const note of bar.notes) {
+                    const durationMs = beatToMs(note.beatLength, bpm);
+                    // 第一个音符偏移为 0，后续每个音符偏移等于上一个音符的持续时间
                     result.push({
-                        timeOffset: beatToMs(note.beatLength, bpm),
+                        timeOffset: result.length === 0 ? 0 : prevDurationMs,
                         finger: note.finger,
                     });
+                    prevDurationMs = durationMs; // 为下一个音符记录当前音符的持续时间
                 }
             }
         }
